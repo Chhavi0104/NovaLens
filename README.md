@@ -1,1 +1,1 @@
-
+Assistive Reading Glasses with OCR and Scene Description
