@@ -30,6 +30,3 @@ def capture_image():
     cv2.destroyAllWindows()
 
     return None
-
-if __name__=='__main__':
-    image = capture_image()
