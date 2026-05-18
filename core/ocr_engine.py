@@ -1,6 +1,6 @@
 import paddleocr
 
-ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang='en')
+ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang='en', show_log=False)
 
 def extract_text(image):
     if image is None:

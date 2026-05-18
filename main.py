@@ -11,7 +11,7 @@ def main():
         print('Press 2 for scene description')
         print('Press 0 for exit')
 
-        choice = int(input('/nEnter your choice: '))
+        choice = int(input('\nEnter your choice: '))
 
         if choice == 1:
             image = capture_image()
@@ -24,7 +24,7 @@ def main():
             speak_text(text)
 
         elif choice == 0:
-            print('Thabk you for trying NovaLens')
+            print('Thabk you for trying NovaLens!')
             break
 
         else:
